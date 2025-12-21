@@ -3,17 +3,18 @@
 		{
 			id: 'hero',
 			title: 'UTAKO TUNE memorial',
-			overline: '静かな終幕',
-			body: '9年間続いた個人プロジェクト UTAKO TUNE は、ここで静かに幕を閉じます。これは終わりの宣言であり、歩んだ姿勢を残すための短い記録です。'
+			overline: '関わってくれたすべての人へ、感謝を込めて。',
+			body: '9年間続いた個人プロジェクト UTAKO TUNE は、2025年をもって静かに幕を閉じました。\n支えてくれたすべての時間に、人に、つながりに、そして素敵な作品を作り続けてくれた人たちに、静かに感謝を込めて。'
 		},
 		{
 			id: 'reflection',
-			title: 'Quiet Reflection',
-			body: '初期の小さな実験から始まり、技術と生活が変わっても「歌に手ざわりを与える」ことを軸に続けた。これは成果の棚卸しではなく、当時の呼吸を思い出すための回想。'
+			title: '始まりへの回想',
+			body: '2016 年の秋ごろ、ボカロの新曲を探し続ける中で、ふと「いい曲が多すぎて、どこから聴けばいいのか分からない」という戸惑いが生まれました。ランキングにも映らない、再生数 1,000 前後の、けれど確かに心を掴む楽曲たち。その気配に背中を押されて、UTAKO TUNE は生まれました。\n\n解析システムを組み、Web サービスを整え、コミックマーケットで同人誌としてまとめるまでの数年間は、技術と音楽と生活がひとつに溶け合っていた時間でした。うまくいかない深層学習モデルに悩み、生活リズムを犠牲にしながらも手を動かし続けた日々は、今でも鮮明に思い出せます。',
+			aside: 'このページは、その時間が確かにここにあったことを、ささやかに記しておくための場所です。'
 		},
 		{
-			id: 'heart',
-			title: 'The Heart of UTAKO TUNE',
+			id: 'values',
+			title: '貫いた信念',
 			items: [
 				'プロダクトより人格を先に置く',
 				'量より感度、速さより誠実さ',
@@ -24,60 +25,33 @@
 		},
 		{
 			id: 'gratitude',
-			title: 'Quiet Gratitude',
-			body: '音を拾ってくれた人、ボカロ文化に関わるすべての人、時代に合わせて道具を生み続けてくれた技術者たち、そして過去の自分へ。静かに受け取ってくれてありがとう。'
+			title: '感謝を込めて',
+			body: 'UTAKO TUNE を訪れてくれたすべての人へ。\n新着一覧を眺め、似ているかもしれない楽曲を辿り、そこで何かひとつでも「出会い」が生まれていたなら、 このプロジェクトは十分すぎるほど報われています。\n\nVOCALOID楽曲に関わり続けてくれたすべてのクリエイターたちへ。みなさんが作品を公開してくれたからこそ、 解析することも、推薦することもできました。勝手ながら、その宇宙の片隅で、 ひとつの観測点として存在させてもらいました。\n\n深層学習フレームワークやクラウド基盤など、技術を提供してくれたコミュニティへ。\n多くのオープンソースやサービスの上に、この小さなプロジェクトは立っていました。\n\nそして、コミックマーケットで本を手に取ってくださった方へ。\n通りがかりのスペースから一冊を連れて帰ってもらえたことが、とても嬉しかったです。',
+			aside: '最後に、あの頃の自分へ。よくここまで続けました。無茶もしたけれど、その時間は確かに糧になりました。'
 		},
 		{
 			id: 'turning-point',
-			title: 'Turning Point',
-			body: '暮らしのリズム、技術基盤、創作の時間配分が大きく変わった。維持のための更新より、意図の鮮度を優先して「区切る」ことを選んだ。'
+			title: '区切りという決断',
+			body: 'UTAKO TUNE を続けることは、だんだんと「維持するための時間」と「他にやりたいこと」のあいだで バランスを取る行為になっていきました。インフラの更新、フレームワークのディスコン、 ランニングコストの増大。どれも避けて通れない現実です。\n\n生活と環境が変わり、まとまった時間を捻出することが難しくなったこと。\nインフラやライブラリの更新に追いつくための負担が、少しずつ重くなっていったこと。\nKiite やボカコレなど、より大きなスケールで同じ課題に向き合うサービスが育ってきたこと。\n次のプロジェクトや生活に、違う形でエネルギーを使いたいと感じるようになったこと。\n\nこれらを踏まえて、「ここでいったん閉じよう」と静かに決めました。\n終わりは後ろ向きなものではなく、次の一歩のために空けるスペースでもあります。'
 		},
 		{
 			id: 'exhibits',
-			title: 'Exhibits',
+			title: 'たしかにあったものたち',
 			body: '残すのは断片だけ。折原詩子という人格のフォルム、初期のロゴ、UI の試作、歌の地図。ここでは画像を置かない。思い出す人の中にだけ展示される。',
 			aside: '素材は別途保管。必要なら未来の自分が取りに行けばいい。'
 		},
 		{
-			id: 'note',
-			title: 'Note to Myself',
-			body: '「やめることを決める勇気」を褒めてほしい。ここから別の場所へ行くとしても、静けさを保ったまま手を動かし続けること。'
+			id: 'note-to-myself',
+			title: '自分自身に宛てて',
+			body: 'UTAKO TUNE は、小さな個人プロジェクトでした。それでも、解析モデルを組み上げ、 実際に動くサービスとして公開し、本としてまとめ、コミュニティに投げかけるところまで辿り着きました。\n\nうまくいかなかった実験や、途中で消えていったアイデアもたくさんあります。けれど、それらを含めて、 このプロジェクトは今のあなたの基礎の一部になっています。次に何かを始めるとき、 「小さく作って試し、少しずつ育てていく」という感覚を、どうか忘れないでください。',
+			aside: '未来の自分へ。あなたはきっと、また新しい何かを始めるでしょう。そのとき、この言葉が少しでも役に立ちますように。'
 		},
 		{
 			id: 'epilogue',
-			title: 'Epilogue',
-			body: '2025 — UTAKO TUNE は静かに閉じた。これで終わり。ここからまた始める。'
+			title: 'おわりに',
+			body: '2025年 — UTAKO TUNE はここでそっと幕を閉じます。\nこれを一つの区切りとして、関わってくれたすべての人へ、改めて感謝を込めて。\n\nありがとうございました。'
 		}
 	];
-
-	const revealOnce = (node: HTMLElement) => {
-		const show = () => node.classList.remove('hidden');
-
-		if (typeof IntersectionObserver === 'undefined') {
-			show();
-			return { destroy: () => undefined };
-		}
-
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						show();
-						observer.unobserve(entry.target);
-					}
-				});
-			},
-			{ threshold: 0.15 }
-		);
-
-		observer.observe(node);
-
-		return {
-			destroy() {
-				observer.disconnect();
-			}
-		};
-	};
 </script>
 
 <svelte:head>
@@ -103,22 +77,24 @@
 
 	<section class="content">
 		{#each sections.slice(1) as section}
-			<article class="card hidden" id={section.id} use:revealOnce>
-				<p class="section-label">{section.id}</p>
-				<div class="card-body">
-					<h2>{section.title}</h2>
-					{#if section.items}
-						<ul class="values">
-							{#each section.items as item}
-								<li>{item}</li>
-							{/each}
-						</ul>
-					{:else}
-						<p>{section.body}</p>
-					{/if}
-					{#if section.aside}
-						<p class="aside">{section.aside}</p>
-					{/if}
+			<article class="section-block" id={section.id}>
+				<div class="card">
+					<p class="section-label">{section.id}</p>
+					<div class="card-body">
+						<h2>{section.title}</h2>
+						{#if section.items}
+							<ul class="values">
+								{#each section.items as item}
+									<li>{item}</li>
+								{/each}
+							</ul>
+						{:else}
+							<p>{section.body}</p>
+						{/if}
+						{#if section.aside}
+							<p class="aside">{section.aside}</p>
+						{/if}
+					</div>
 				</div>
 			</article>
 		{/each}
@@ -148,6 +124,7 @@
 		display: grid;
 		place-items: center;
 		padding: 4rem 1.5rem 2rem;
+		white-space: pre-wrap;
 	}
 
 	.hero-inner {
@@ -208,24 +185,26 @@
 		gap: 1.25rem;
 	}
 
+	.section-block {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		padding: 6vh 0;
+	}
+
 	.card {
 		position: relative;
 		background: rgba(255, 255, 255, 0.9);
 		border: 1px solid #efe8ff;
 		border-radius: 20px;
-		padding: 1.4rem 1.35rem 1.5rem;
+		padding: 2rem;
 		box-shadow: 0 15px 45px rgba(69, 37, 116, 0.08);
 		opacity: 1;
 		transform: translateY(26px);
 		transition: opacity 700ms ease, transform 700ms ease;
-		min-height: 100vh;
-		display: flex;
-		align-items: center;
-	}
-
-	.card.hidden {
-		opacity: 0;
-		transform: translateY(26px);
+		width: 100%;
+		max-width: 720px;
+		margin: auto;
 	}
 
 	.card:hover {
@@ -259,6 +238,7 @@
 		line-height: 1.7;
 		color: #372f4f;
 		font-size: 1rem;
+		white-space: pre-wrap;
 	}
 
 	.values {
@@ -277,8 +257,8 @@
 		color: #342a4f;
 	}
 
-	.aside {
-		margin-top: 0.75rem;
+	.card-body .aside {
+		margin-top: 2rem;
 		font-size: 0.95rem;
 		color: #6a5f87;
 		font-style: italic;
@@ -299,6 +279,10 @@
 
 		.hero-inner {
 			padding: 2.3rem 1.7rem;
+		}
+
+		.section-block {
+			min-height: 90vh;
 		}
 
 		.section-label {
